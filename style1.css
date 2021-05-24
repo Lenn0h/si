@@ -1,0 +1,44 @@
+body{
+    background-image: url(img/istockphoto-1170275727-612x612.jpg);
+
+    
+}
+.contenedor{
+    width: 80%;
+    max-width: 1000px;
+}
+.header{
+    background-color:rgb(75, 86, 187);
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornsilk;
+}
+.menu{
+    background-color: cornflowerblue;
+    color:black;
+    border-style:solid;
+    border-color: rgb(75, 86, 187);
+    font-family: cursive;
+    height: 100%;
+    text-align: center;
+    padding: 5px;
+}
+#imagenes{
+    width: 100%;
+    height:auto;  
+}
+h4{
+    font-family: fantasy;
+    color: cornsilk;
+    width: 100%;
+    background-color: rgb(75, 86, 187);
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
