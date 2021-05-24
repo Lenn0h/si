@@ -4,4 +4,5 @@ body{
 .contenedor{
     width: 80%;
     max-width: 1000px;
+    background-color: blueviolet;
 }
