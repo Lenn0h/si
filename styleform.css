@@ -4,5 +4,8 @@ body{
 .contenedor{
     width: 80%;
     max-width: 1000px;
+}
+
+.Forming{
     background-color: blueviolet;
 }
