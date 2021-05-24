@@ -7,5 +7,25 @@ body{
 }
 
 .Forming{
-    background-color: blueviolet;
+    background-color: rgb(75, 86, 187);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.header{
+    background-color:rgb(75, 86, 187);
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornsilk;
+}
+
+.menu{
+    background-color: cornflowerblue;
+    color:black;
+    border-style:solid;
+    border-color: rgb(75, 86, 187);
+    font-family: cursive;
+    height: 100%;
+    text-align: center;
+    padding: 5px;
 }
