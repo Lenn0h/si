@@ -4,7 +4,7 @@ $(document).ready(function()
             $("#formulario").submit(function()
             {
                 var mensaje=""; 
-                var msjgood="";
+                var msjgood="Registro completado con exito!";
 
                 if($("#nombre").val().trim().length==0)
                 { 
@@ -29,7 +29,7 @@ $(document).ready(function()
                 }
                 else
                 {
-                    msjgood="Registro completado con exito!"
+                    alert(msjgood)
                 }
                 if(mensaje !="")
                 {
