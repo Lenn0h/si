@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="styleform.css">
     <title>BACKSTORE - Los mejores precios!</title>
-    <script src="Scripts/form.js">
+    <script src="Scripts/login.js">
     </script>
   </head>
   <body>
@@ -24,33 +24,21 @@
             <span class="menu">MONITORES</span>
             <span class="menu">TECLADOS</span>
             <span class="menu">CONSOLAS</span>
+            <span class="menu"><a href="registro.html">REGISTRATE AQUÍ!</a></span>
             <span class="menu"><a href="regWork.html">TRABAJA CON NOSOTROS!</a></span>
-            <span class="menu"><a href="login.html">INICIAR SESIÓN</a></span>
           </div>
         <div class="Forming">
             <form id="formulario">
                 <div class="form-group">
-                    <label for="nombre">Ingresa tu nombre: </label>
-                    <input type="text" class="form-control" id="nombre" name="nombre">
-                </div>
-                <div class="form-group">
-                    <label for="email">Ingresa tu Correo Electronico</label>
+                    <label for="email">Ingresa tu Correo Electronico:</label>
                     <input type="email" class="form-control" id="email" name="email">
                 </div>
                 <div class="form-group">
                     <label for="password">Ingresa una contraseña: </label>
                     <input type="password" class="form-control" id="password" name="password">
                 </div>
-                <div class="form-group">
-                    <label for="">Numero Telefono: </label>
-                    <input type="number" class="form-control" id="telefono" name="telefono">
-                </div>
-                <div class="form-group">
-                    <label for="text">Ciudad:</label>
-                    <input type="text" class="form-control" id="ciudad" name="ciudad">
-                </div>
-                <button type="submit" id="send"  value="Send">Enviar</button>
-                <div id="error" class="alert alert-danger" role="alert"></div>
+                <button type="submit" id="send"  value="Send">Ingresar</button>
+                <div id="error" class="alert alert-danger" role="alert"></div>    
             </form>
         </div>  
     </div>
