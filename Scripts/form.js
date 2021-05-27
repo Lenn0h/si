@@ -4,6 +4,7 @@ $(document).ready(function()
             $("#formulario").submit(function()
             {
                 var mensaje=""; 
+                var msjgood="";
 
                 if($("#nombre").val().trim().length==0)
                 { 
@@ -25,6 +26,10 @@ $(document).ready(function()
                 if($("#telefono").val().trim().length<8)
                 {
                     mensaje="Ingresa un número de telefono valido"
+                }
+                else
+                {
+                    msjgood="Registro completado con exito!"
                 }
                 if(mensaje !="")
                 {
