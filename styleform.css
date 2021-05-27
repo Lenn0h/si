@@ -36,3 +36,12 @@ button{
     color: azure;
     border-radius: 4px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color:brown;
+}
