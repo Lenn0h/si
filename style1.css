@@ -4,7 +4,7 @@ body{
     
 }
 .contenedor{
-    width: 80%;
+    width: 100%;
     max-width: 1000px;
 }
 .header{
@@ -51,6 +51,7 @@ a:hover{
     text-decoration: none;
     color:aquamarine;
 }
+
 
 
 
