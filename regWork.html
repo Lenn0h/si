@@ -28,10 +28,18 @@
           </div>
         <div class="Forming">
             <form id="formulario">
-                <div class="form-group">
-                    <label for="nombre">Ingresa tu Nombre Completo: </label>
-                    <input type="text" class="form-control" id="nombre" name="nombre">
-                </div>
+                <div class="form-row">
+                    
+                    <div class="col">
+                      <label for="nombre">Ingresa tu nombre(s)</label>
+                      <input type="text" class="form-control" placeholder="Nombres..." id="nombre" name="nombre">
+                    </div>
+                    <div class="col">
+                        <label for="apellido">Ingresa tu apellido(s)</label>
+                      <input type="text" class="form-control" placeholder="Apellidos..." id="apellido" name="apellido">
+                    </div>
+                  </div>
+                  <br>
                 <div class="form-group">
                     <label for="email">Ingresa tu Correo Electronico: </label>
                     <input type="email" class="form-control" id="email" name="email">
