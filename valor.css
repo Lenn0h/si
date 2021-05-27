@@ -1,9 +1,5 @@
 body{
-    background-image: url(img/istockphoto-1170275727-612x612.jpg); 
-}
-.contenedor{
-    width: 100%;
-    max-width: 1000px;
+    background-image: url(img/istockphoto-1170275727-612x612.jpg);
 }
 .header{
     background-color:rgb(75, 86, 187);
@@ -11,6 +7,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: cornsilk;
 }
+
 .menu{
     background-color: cornflowerblue;
     color:white;
@@ -22,8 +19,16 @@ body{
     padding: 5px;
 }
 #imagenes{
+    margin-top: 10px;
     width: 100%;
     height:auto;  
+}
+.valor{
+    margin-top: 10px;
+    text-align: center;
+    color:white;
+    background-color: rgb(75, 86, 187);
+    font-family: cursive;
 }
 h4{
     font-family: fantasy;
@@ -35,11 +40,6 @@ h4{
     margin-bottom: 20px;
 }
 
-#login{
-    height: 1%;
-    float: left;
-}
-
 a{
     text-decoration: none;
     color: white;
@@ -49,11 +49,3 @@ a:hover{
     text-decoration: none;
     color:aquamarine;
 }
-
-
-
-
-
-
-
-
