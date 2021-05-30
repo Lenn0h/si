@@ -1,3 +1,5 @@
+//Validación formulario de registro de trabajo con JQuery
+
 $(document).ready(function()
         {
             $("#error").hide();

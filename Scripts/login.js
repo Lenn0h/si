@@ -1,3 +1,5 @@
+//Validación Formulario inicio sesión con JQUERY 
+
 $(document).ready(function()
         {
             $("#error").hide();

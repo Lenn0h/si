@@ -1,3 +1,6 @@
+
+//Validacion Formulario de registro con JQUERY
+
 $(document).ready(function()
         {
             $("#error").hide();
